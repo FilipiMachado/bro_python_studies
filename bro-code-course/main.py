@@ -3,6 +3,6 @@
 #full_name = first_name + last_name 
 #print("Hello " + full_name)
 
-age = 21
-age += 5
-print(age)
+age = 5
+ageStr = "21"
+print('Your age is: ' + str(age))
