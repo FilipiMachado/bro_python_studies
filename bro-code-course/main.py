@@ -1,3 +1,3 @@
-name = "Dihegaço"
+name = "Zueirinho"
 
 print("Hello " + name)
