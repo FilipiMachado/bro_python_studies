@@ -16,7 +16,7 @@ name, age, smart = 'Zuerinho', 25, True
 
 print(name, smart) """
 
-name = 'Fil Code'
+#name = 'Fil Code'
 
 # print(len(name))
 # print(name.find('C'))
@@ -24,3 +24,5 @@ name = 'Fil Code'
 # print(name.upper())
 # print(name.lower())
 # print(name.count('l'))
+# print(name.replace('i', 'c'))
+
