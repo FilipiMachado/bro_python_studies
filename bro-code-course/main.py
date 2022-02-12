@@ -50,11 +50,27 @@ print("A variável Y é: " + y)
 
 """ ----------------------------------- """
 
-name = input("What is your name?: ")
+""" name = input("What is your name?: ")
 age = int(input("What is your age?: "))
 height = float(input("What is your height?: "))
 
 print("My name is " + name)
 print("I'm " + str(age) + " years old.")
-print("I'm " + str(height) + "cm tall.")
+print("I'm " + str(height) + "cm tall.") """
 
+""" ----------------------------------- """
+
+import math
+
+pi = 3.1415
+
+x = 1
+y = 2
+z = 3
+
+# print(round(pi))
+# print(math.ceil(pi))
+# print(math.floor(pi))
+# print(pow(pi, 2))
+# print(min(x, y , z))
+# print(max(x, y , z))
