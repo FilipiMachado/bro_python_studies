@@ -60,7 +60,7 @@ print("I'm " + str(height) + "cm tall.") """
 
 """ ----------------------------------- """
 
-import math
+""" import math
 
 pi = 3.1415
 
@@ -73,4 +73,21 @@ z = 3
 # print(math.floor(pi))
 # print(pow(pi, 2))
 # print(min(x, y , z))
-# print(max(x, y , z))
+# print(max(x, y , z)) """
+
+""" ----------------------------------- """
+
+# slicing = create a substring by extracting elements
+# from another string
+# indexing[] ou slice()
+# {start:stop:step}
+
+name = "Fil Code"
+
+first_name = name[0:3]
+
+#website1 = "http://www.google.com.br"
+#website2 = "http://www.rbstv.com" 
+
+print(first_name)
+#print(website2)
