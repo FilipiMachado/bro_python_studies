@@ -35,7 +35,7 @@ print(name, smart) """
 # type casting = convert the data type of a value to another
 # data type
 
-x = 1   #int
+""" x = 1   #int
 y = 2.0 #float
 z = "3" #str
 
@@ -46,4 +46,15 @@ z = float(z)
 
 #print("A variável X é: " + x)
 print("A variável Y é: " + y)
-# print(z * 3)
+# print(z * 3) """
+
+""" ----------------------------------- """
+
+name = input("What is your name?: ")
+age = int(input("What is your age?: "))
+height = float(input("What is your height?: "))
+
+print("My name is " + name)
+print("I'm " + str(age) + " years old.")
+print("I'm " + str(height) + "cm tall.")
+
