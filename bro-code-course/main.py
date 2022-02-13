@@ -112,12 +112,15 @@ else:
 # logical operators (and, or, not) = used to check if two or more
 # conditional statement
 
-temp = int(input("What is the temperature outside?: "))
+""" temp = int(input("What is the temperature outside?: "))
 
 if temp >= 0 and temp <= 35:
     print("the temperature is good today!")
     print("go outside!")
 elif not(temp < 0) or temp > 35:
     print("the temperature is bad today!")
-    print("stay inside!")
+    print("stay inside!") """
+
+""" ----------------------------------- """
+
 
