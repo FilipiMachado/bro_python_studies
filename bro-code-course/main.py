@@ -82,12 +82,27 @@ z = 3
 # indexing[] ou slice()
 # {start:stop:step}
 
-name = "Fil Code"
+""" name = "Fil Code"
 
 first_name = name[0:3]
+last_name = name[4:8]
 
 #website1 = "http://www.google.com.br"
 #website2 = "http://www.rbstv.com" 
 
 print(first_name)
-#print(website2)
+print(last_name) """
+
+""" ----------------------------------- """
+
+# if statement = a block of code that will execute if it's
+# condition is true
+
+age = int(input("How old are you?: "))
+
+if age >= 18:
+    print("You are an adult!")
+elif age >= 12:
+    print("You are a adolescent")
+else:
+    print("You are a kid!")
