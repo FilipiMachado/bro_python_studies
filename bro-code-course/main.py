@@ -98,11 +98,26 @@ print(last_name) """
 # if statement = a block of code that will execute if it's
 # condition is true
 
-age = int(input("How old are you?: "))
+""" age = int(input("How old are you?: "))
 
 if age >= 18:
     print("You are an adult!")
 elif age >= 12:
     print("You are a adolescent")
 else:
-    print("You are a kid!")
+    print("You are a kid!") """
+
+""" ----------------------------------- """
+
+# logical operators (and, or, not) = used to check if two or more
+# conditional statement
+
+temp = int(input("What is the temperature outside?: "))
+
+if temp >= 0 and temp <= 35:
+    print("the temperature is good today!")
+    print("go outside!")
+elif not(temp < 0) or temp > 35:
+    print("the temperature is bad today!")
+    print("stay inside!")
+
