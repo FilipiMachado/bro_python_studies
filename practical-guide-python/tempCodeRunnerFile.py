@@ -18,4 +18,3 @@ tx_amount = float(input("Your transaction amount please: "))
 add_value(tx_amount, get_last_blockchain_value())
 
 print(blockchain)
-
