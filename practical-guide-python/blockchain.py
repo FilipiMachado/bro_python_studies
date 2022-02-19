@@ -40,7 +40,7 @@ def print_inputs():
     
 print_inputs() """
 
-import math
+""" import math
 
 age = int(input("Enter your age, please: "))
 
@@ -48,4 +48,8 @@ def calculate_decades():
     return print("You lived " + str(math.floor(age/10)) + " decades.")
 
 calculate_decades()
+ """
+
+
+""" ----------------------------------------------------------------------------------------- """
 
