@@ -33,7 +33,7 @@ def get_user_choice():
 
 def print_blockchain_elements():
     for block in blockchain:
-        print('Outputting Block')
+        print('Outputting Block:')
         print(block)
 
 # Get the first transaction input and add the value to the blockchain
@@ -52,13 +52,18 @@ while True:
     print("Choose a option")
     print("1: Add a transaction")
     print("2: Output the blockchain")
+    print("q: Quit")
     user_choice = get_user_choice()
     
     if user_choice == '1':
         tx_amount = get_transaction_value()
         add_value(tx_amount, get_last_blockchain_value())
-    else:
+    elif user_choice == '2':
         print_blockchain_elements()
+    elif user_choice == 'q':
+        print("Quitted!")
+    else:
+        print("Input is invalid, pick a correct value!")
     
 
 print("Done!")
