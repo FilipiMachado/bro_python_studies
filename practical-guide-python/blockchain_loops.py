@@ -62,7 +62,9 @@ def verify_chain():
 
 # Output the blockchain list to the console
 
-while True:
+waiting_for_input = True
+
+while waiting_for_input:
     print("Choose a option")
     print("1: Add a transaction")
     print("2: Output the blockchain")
@@ -80,7 +82,7 @@ while True:
             blockchain[0] = [2]
     elif user_choice == 'q':
         print("Quitted!")
-        break
+        waiting_for_input = False
     else:
         print("Input is invalid, pick a correct value!")
     if not verify_chain():
