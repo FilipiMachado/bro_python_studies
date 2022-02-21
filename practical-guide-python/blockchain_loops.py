@@ -45,11 +45,16 @@ def print_blockchain_elements():
 tx_amount = get_transaction_value()
 add_transaction(tx_amount)
 
-# Get the second transaction input and add the value to the blockchain
-
-
-# Get the third transaction input and add the value to the blockchain
-
+def verify_chain():
+    block_index = 0
+    is_valid = True
+    for block in blockchain:
+        if block[0] == blockchain[block_index - 1]:
+            is_valid = True
+        else:
+            is_valid = False
+            break
+    return is_valid
 
 # Output the blockchain list to the console
 
@@ -57,6 +62,7 @@ while True:
     print("Choose a option")
     print("1: Add a transaction")
     print("2: Output the blockchain")
+    print("h: Manipulate the chain")
     print("q: Quit")
     user_choice = get_user_choice()
     
@@ -65,6 +71,9 @@ while True:
         add_transaction(tx_amount, get_last_blockchain_value())
     elif user_choice == '2':
         print_blockchain_elements()
+    elif user_choice == 'h:':
+        if len(blockchain) >= 1:
+            blockchain[0] = [2]
     elif user_choice == 'q':
         print("Quitted!")
         break
