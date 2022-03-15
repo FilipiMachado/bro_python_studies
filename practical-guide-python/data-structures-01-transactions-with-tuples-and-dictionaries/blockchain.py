@@ -3,6 +3,8 @@ blockchain = []
 open_transactions = []
 owner = 'Max'
 
+#test
+
 
 def get_last_blockchain_value():
     """ Returns the last value of the current blockchain. """
